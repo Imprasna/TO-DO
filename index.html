@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add and remove </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <h1>Dynamically add and remove items</h1>
+                <hr>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="candidate">
+
+                    <div class="input-group-append">
+                        <button onclick="addItem()" type="button" class="btn btn-add">Add Item</button>
+                        <button onclick="removeItem()" type="button" class="btn btn-remove">Delete Item</button>
+                    </div>
+                </div>
+
+                <ul class="dynamic-list">
+                    <!-- <li></li> -->
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
